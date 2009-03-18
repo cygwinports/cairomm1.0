@@ -1,0 +1,104 @@
+cairomm1.0
+-------------------------------------------
+C++ bindings for the cairo vector graphics library.
+
+Runtime requirements:
+  cygwin-1.7.0-43
+  libcairo2-1.8.6-10
+  libgcc1-4.3.2-2
+  libstdc++6-4.3.2-2
+  libsigc2.0_0-2.2.3-10
+
+Build requirements:
+(besides corresponding devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.1-10
+  binutils-20080624-2
+  cygport-0.9.6-1
+  doxygen-1.5.5-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  gcc4-g++-4.3.2-2
+  libtool-2.2.7a-1
+  make-3.81-2
+  perl-5.10.0-5
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical homepage:
+  http://cairographics.org/
+
+Canonical download:
+  http://cairographics.org/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack cairomm1.0-1.8.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./cairomm1.0-1.8.0-X.cygport all
+
+This will create:
+  /usr/src/cairomm1.0-1.8.0-X-src.tar.bz2
+  /usr/src/libcairomm1.0-devel-1.8.0-X.tar.bz2
+  /usr/src/libcairomm1.0_1-1.8.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary packages:
+
+(libcairomm1.0_1)
+  /usr/bin/cygcairomm-1.0-1.dll
+  /usr/share/doc/cairomm1.0/AUTHORS
+  /usr/share/doc/cairomm1.0/COPYING
+  /usr/share/doc/cairomm1.0/ChangeLog
+  /usr/share/doc/cairomm1.0/MAINTAINERS
+  /usr/share/doc/cairomm1.0/NEWS
+  /usr/share/doc/cairomm1.0/README
+  /usr/share/doc/cairomm1.0/TODO
+
+(libcairomm1.0-devel)
+  /usr/include/cairomm-1.0/cairomm/cairomm.h
+  /usr/include/cairomm-1.0/cairomm/cairommconfig.h
+  /usr/include/cairomm-1.0/cairomm/context.h
+  /usr/include/cairomm-1.0/cairomm/enums.h
+  /usr/include/cairomm-1.0/cairomm/exception.h
+  /usr/include/cairomm-1.0/cairomm/fontface.h
+  /usr/include/cairomm-1.0/cairomm/fontoptions.h
+  /usr/include/cairomm-1.0/cairomm/matrix.h
+  /usr/include/cairomm-1.0/cairomm/path.h
+  /usr/include/cairomm-1.0/cairomm/pattern.h
+  /usr/include/cairomm-1.0/cairomm/quartz_font.h
+  /usr/include/cairomm-1.0/cairomm/quartz_surface.h
+  /usr/include/cairomm-1.0/cairomm/refptr.h
+  /usr/include/cairomm-1.0/cairomm/scaledfont.h
+  /usr/include/cairomm-1.0/cairomm/surface.h
+  /usr/include/cairomm-1.0/cairomm/types.h
+  /usr/include/cairomm-1.0/cairomm/win32_font.h
+  /usr/include/cairomm-1.0/cairomm/win32_surface.h
+  /usr/include/cairomm-1.0/cairomm/xlib_surface.h
+  /usr/lib/libcairomm-1.0.a
+  /usr/lib/libcairomm-1.0.dll.a
+  /usr/lib/libcairomm-1.0.la
+  /usr/lib/pkgconfig/cairomm-1.0.pc
+  /usr/lib/pkgconfig/cairomm-ft-1.0.pc
+  /usr/lib/pkgconfig/cairomm-pdf-1.0.pc
+  /usr/lib/pkgconfig/cairomm-png-1.0.pc
+  /usr/lib/pkgconfig/cairomm-ps-1.0.pc
+  /usr/lib/pkgconfig/cairomm-svg-1.0.pc
+  /usr/lib/pkgconfig/cairomm-xlib-1.0.pc
+  /usr/lib/pkgconfig/cairomm-xlib-xrender-1.0.pc
+  /usr/share/doc/libcairomm-1.0/reference/html/*
+
+------------------
+
+Port Notes:
+
+----- version 1.8.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

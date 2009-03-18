@@ -1,0 +1,4 @@
+category: X11
+sdesc: "C++ bindings for the cairo graphics engine (source)"
+ldesc: "C++ bindings for the cairo graphics engine"
+

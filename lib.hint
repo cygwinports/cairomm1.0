@@ -1,0 +1,6 @@
+category: X11
+requires: cygwin libcairo2 libgcc1 libsigc2.0_0 libstdc++6
+external-source: cairomm1.0
+sdesc: "C++ bindings for the cairo graphics engine (runtime)"
+ldesc: "C++ bindings for the cairo graphics engine"
+

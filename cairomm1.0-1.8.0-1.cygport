@@ -1,0 +1,13 @@
+ORIG_PN=cairomm
+
+DESCRIPTION="C++ bindings for the cairo graphics engine"
+HOMEPAGE="http://cairographics.org/cairomm"
+SRC_URI="http://cairographics.org/releases/${ORIG_PN}-${PV}.tar.gz"
+SRC_DIR="${ORIG_PN}-${PV}"
+
+PKG_NAMES="${PN} lib${PN}_1 lib${PN}-devel"
+PKG_HINTS="src lib devel"
+libcairomm1_0_1_CONTENTS="usr/bin/cygcairomm-1.0-1.dll usr/share/doc/Cygwin/ usr/share/doc/${PN}/"
+libcairomm1_0_devel_CONTENTS='usr/include/ usr/lib/ usr/share/doc/libcairomm-1.0/'
+
+DIFF_EXCLUDES="cairommconfig.h"
