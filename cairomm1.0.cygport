@@ -2,7 +2,7 @@ inherit gtkmm
 
 NAME="cairomm1.0"
 VERSION=1.10.0
-RELEASE=1
+RELEASE=2
 CATEGORY="Libs"
 SUMMARY="C++ bindings for the cairo graphics engine"
 DESCRIPTION="C++ bindings for the cairo graphics engine"
